@@ -5,7 +5,7 @@ from qiskit.tools.visualization import plot_histogram
 
 # Assigning registors for qubits
 
-n = 5 #max is 23 for some reason
+n = 5 #max is 23
 
 #Assigning registors for quantum and classical circuit
 qr = QuantumRegister(n, name = 'qr')
